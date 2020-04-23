@@ -3,10 +3,10 @@ package modul6;
 import java.util.Scanner;
 
 public class TugasF1_193040161 {
+	static Scanner userInput = new Scanner(System.in);
 	
-	public static void main(String[] args) {
-		Scanner userInput = new Scanner(System.in);
-		
+	public static void tampilData()
+	{
 		int jum = 0;
 		
 		System.out.print("Masukan Banyak Element: ");
@@ -31,5 +31,9 @@ public class TugasF1_193040161 {
 			
 		}
 		 System.out.println("Total: " + jum);
+	}
+	
+	public static void main(String[] args) {
+		tampilData();
 	}
 }
