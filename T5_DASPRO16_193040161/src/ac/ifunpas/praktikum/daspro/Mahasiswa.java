@@ -1,14 +1,10 @@
 package ac.ifunpas.praktikum.daspro;
 
-import java.util.Scanner;
-
 public class Mahasiswa {
 	private String sNrp;
 	private String sNama;
 	private int iNilai;
 	private double dIPK;
-	
-	Scanner sc = new Scanner(System.in);
 	
 	public void setsNrp (String sNrp) {
 		this.sNrp = sNrp;
