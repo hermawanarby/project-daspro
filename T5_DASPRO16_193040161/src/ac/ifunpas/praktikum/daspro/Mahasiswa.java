@@ -1,5 +1,4 @@
 package ac.ifunpas.praktikum.daspro;
-
 public class Mahasiswa {
 	private String sNrp;
 	private String sNama;
@@ -37,5 +36,4 @@ public class Mahasiswa {
 	public double getdIPK() {
 		return dIPK;
 	}
-	
 }
